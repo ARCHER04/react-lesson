@@ -1,0 +1,75 @@
+body {
+  padding: 50px;
+  background-color: #363636;
+}
+
+.App {
+  padding: 10px;
+  max-width: 50%;
+  margin: 0 auto;
+  text-align: center;
+  background: #828691;
+}
+
+h1 {
+  color: #9944c0;
+  font-size: 50px;
+}
+
+.todos-wrapper {
+  margin-bottom: 50px;
+}
+
+.todo {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+input {
+  width: 450px;
+  padding: 0.8em;
+}
+
+button {
+  width: 80px;
+  padding: 0.8em;
+  cursor: pointer;
+}
+
+input,
+button {
+  font-size: 1em;
+  appearance: none;
+  color: currentcolor;
+  background: transparent;
+  border: 1px solid #e3b8ff;
+}
+
+.add-button {
+  color: #86ffc7;
+  border-left: none;
+}
+
+.delete-button {
+  color: #fa7878;
+}
+
+ul {
+  padding: 0;
+  list-style: none;
+  margin-bottom: 0px;
+}
+
+li {
+  width: 450px;
+  padding: 0.85em;
+  text-align: left;
+  margin-bottom: 0.5rem;
+  background: #acacac;
+}
+
+.empty {
+  font-size: 20px;
+  color: #cf972e;
+}
